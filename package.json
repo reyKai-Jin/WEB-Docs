@@ -4,9 +4,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "vitepress dev",
-    "docs:build": "vitepress build",
-    "docs:preview": "vitepress preview"
+    "WEB-docs:dev": "vitepress dev",
+    "WEB-docs:build": "vitepress build",
+    "WEB-docs:preview": "vitepress preview"
   },
   "author": "",
   "license": "ISC",
