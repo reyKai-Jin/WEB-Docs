@@ -4,8 +4,8 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "凯子的博客",
   description: "A VitePress Site",
-  outDir:'docs',
-  base: '/docs/',
+  outDir:'WEB-Docs',
+  base: '/WEB-Docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
