@@ -2,22 +2,23 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "凯子的博客",
+  title: "ReyKai-Jin博客站",
   description: "A VitePress Site",
   outDir:'docs',
   base: '/WEB-Docs/',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '主页', link: '/' },
+      { text: 'HTML之篇', link: '/HTML' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: '全栈之路',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
+          { text: '环境配置', link: '/setting-config' },
+          { text: 'HTML之篇', link: '/HTML' },
           { text: 'Runtime API Examples', link: '/api-examples' }
         ]
       }
@@ -40,7 +41,7 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/KaiTitan/docs' }
+      { icon: 'github', link: 'https://github.com/reyKai-Jin/WEB-Docs' }
     ]
   }
 })

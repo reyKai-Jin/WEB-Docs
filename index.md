@@ -3,16 +3,19 @@
 layout: home
 
 hero:
-  name: "我的超棒项目"
-  text: "一个 博客 网站"
-  tagline: 凯子的笔记
+  name: "ReyKai-Jin"
+  text: "一个 个人博客 网站"
+  tagline: ReyKai-Jin 全栈之路
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: HTML之篇
+      link: /HTML
     - theme: alt
-      text: API Examples
+      text: CSS之篇
       link: /api-examples
+    - theme: alt
+      text: 环境配置
+      link: /setting-config
 
 features:
   - title: Feature A
@@ -28,4 +31,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
