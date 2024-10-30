@@ -1,0 +1,14 @@
+{
+  "name": "MyWebNote",
+  "short_name": "Note",
+  "display": "standalone",
+  "description": "一个记录笔记的小破站",
+  "start_url": "/notes/index.html",
+  "icons": [
+    {
+      "src": "/notes/image/logo.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
